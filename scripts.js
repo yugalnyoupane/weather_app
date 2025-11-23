@@ -9,7 +9,7 @@ window.onload =()=>{
         const city = cityInput.value;
 
         //to convert input to lat and long
-        const urlCityConverter = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKeyWeather}`
+        const urlCityConverter = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKeyWeather}`
     
         const fetchConverter = async()=>{
             try{
